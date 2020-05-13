@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Cegah Kaki Gajah</title>
+</head>
+<style>
+
+    /* gak tau kenapa background-image di file css external gak bisa. So saya taruh disini. And done, its work guys*/
+    .jumbotron{
+        position: relative;
+        display: flex;
+        background-image: linear-gradient(180deg, #008aff, #ff137d), url(assets/img/kaki.jpg);
+        background-blend-mode: screen;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: space-around;
+        padding: 200px 0;
+        color: white;
+        text-shadow: 2px 4px 8px #333;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+</style>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="">
+            <a href="index.html">Kabupaten Demak</a>
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#map">Maps</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    <!-- Jumbotron -->
+    <div class="jumbotron" id="home">
+        <h3>Informasi Kasus Kaki Gajah Kabupaten Demak</h3>
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,0L30,42.7C60,85,120,171,180,202.7C240,235,300,213,360,186.7C420,160,480,128,540,122.7C600,117,660,139,720,176C780,213,840,267,900,282.7C960,299,1020,277,1080,245.3C1140,213,1200,171,1260,165.3C1320,160,1380,192,1410,208L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </div>
+
+
+    <!-- Sum Info card -->
+    <div class="info">
+        <div class="card">
+            <h3>49</h3>
+            <h6>Terjangkit</h6>
+        </div>
+
+        <div class="card">
+            <h3>49</h3>
+            <h6>Perawatan</h6>
+        </div>
+        
+        <div class="card">
+            <h3>0</h3>
+            <h6>Sembuh</h6>
+        </div>
+    </div>
+
+
+    <!-- Peta Geografis wilayah yang terjangkit -->
+    <div class="map" id="map">
+        <iframe src="assets/web/index.html"  frameborder="1"></iframe>
+        <iframe src="assets/map.svg" frameborder="1"></iframe>
+    </div>
+    <p class="source">Sumber data : <a href="https://ejournal.undip.ac.id/index.php/jkli/article/download/17405/12873" target="_blank">Jurnal Lingkungan Hidup Indonesia</a></p>
+
+    <!-- informasi penularan dan pencegahan -->
+    <div class="content">
+        <h3>Apa yang harus dilakukan?</h3>
+        <section>
+            <article>
+                <h4>Penyebab</h4>
+                <p>Penyakit kaki gajah atau filariasis disebabkan oleh infeksi cacing jenis filaria pada pembuluh getah bening. Cacing ini dapat menular dari satu orang ke orang lain melalui gigitan nyamuk. Nyamuk penyebar cacing filaria adalah nyamuk jenis Culex, Aedes, Anopheles, dan Mansonia.</p>
+            </article>
+
+            <article>
+                <h4>Pencegahan</h4>
+                <p>Mengenakan baju dan celana panjang, Mengoleskan losion antinyamuk, Tidur menggunakan kelambu, Membersihkan genangan air sekitar Rumah</p>
+            </article>
+
+            <article>
+                <h4>Pengobatan</h4>
+                <p>Pengobatan yang dapat dijalani oleh pasien filariasis bertujuan untuk mencegah infeksi bertambah buruk dan menghindari komplikasi filariasis. Untuk mengurangi jumlah parasit dalam tubuh, pasien dapat mengonsumsi obat cacing, seperti ivermectin, albendazole, atau diethylcarbamazine.</p>
+                </ul>
+            </article>
+        </section>
+        <p class="source">Sumber data : <a href="https://www.alodokter.com/filariasis" target="_blank">https://www.alodokter.com/filariasis</a></p>
+    </div>
+
+
+    <!-- informasi contact hotline -->
+    <div class="contact" id="contact">
+        <h3>Layanan Hotline</h3>
+        <section>
+            <article>
+                <h4>Dinkes</h4>
+                <ul>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Puskesmas</h4>
+                <ul>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Rumah Sakit Daerah</h4>
+                <ul>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                    <li><a class="btn" href="">089-988-3637-88</a></li>
+                </ul>
+            </article>
+        </section>
+        
+    </div>
+    
+    
+    <!-- footer -->
+    <footer>
+        <span>Copyright by Eko Prasetyo &hearts; 2020</span>
+    </footer>
+
+</body>
+</html>
